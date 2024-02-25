@@ -1,0 +1,54 @@
+section.events {
+
+}
+
+section.events h2 {
+    font-family: 'Baar Sophia Bold';
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: var(--primary-content80-color);
+    padding: 5rem 0rem;
+}
+
+section.events .wrapper {
+
+}
+
+section.events div.event {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 50%;
+    grid-row: 1/3;
+}
+
+section.events div.event-place {
+    align-self: center;
+    justify-self: center;
+}
+
+section.events div.event picture {
+    /* object-fit: cover; */
+    align-self: center;
+    justify-self: center;
+    max-width: 300px;
+}
+
+section.events div.event picture img {
+    width: 100%;
+    border-radius: 0.8125rem;
+}
+
+section.events div.event div.description h3 {
+    color: var(--accent-color);
+    font-family: 'Baar Sophia Bold';
+    padding-bottom: 1.975rem;
+    text-transform: uppercase;
+}
+
+section.events div.event div.description {
+    font-family: 'Titillium Web';
+    align-self: center;
+    justify-self: center;
+    padding-left: 5rem;
+}
