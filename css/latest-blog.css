@@ -22,7 +22,7 @@ section.latest-blog .bevel-square-gray {
     top: 416px;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 69%;
     clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 94%);
     z-index: 1;
     background-color: var(--gray30-color)
@@ -52,15 +52,13 @@ section.latest-blog article {
     width: 420px;
     display: flex;
     flex-direction: column;
-    /* margin-bottom: auto; */
-    border: 1px solid red;
 }
 
 section.latest-blog article .first-picture img {
     width: 100%;
     height: 564px;
     border-radius: 1.4375rem;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 
 section.latest-blog article h3 {
@@ -78,9 +76,13 @@ section.latest-blog article h3 a {
 
 section.latest-blog picture.avater {
     margin-top: auto;
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-content80-color);
 }
 
 section.latest-blog picture.avater img {
     width: 40px;
+    padding-bottom:1rem ;
 }
