@@ -1,0 +1,26 @@
+/* Titillium Web */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* Baar Zeitgeist */
+@font-face {
+    font-family: 'Baar Zeitgeist';
+    src: url('/fonts/BaarZeitgeist-2EZo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* Baar Sophia Regular */
+@font-face {
+    font-family: 'Baar Sophia Regular';
+    src: url('/fonts/BaarSophia-lg4Z.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Baar Sophia Bold */
+@font-face {
+  font-family: 'Baar Sophia Bold';
+  src: url('/fonts/BaarSophiaBold-nReR.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

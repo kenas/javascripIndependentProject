@@ -1,0 +1,22 @@
+section.tags {
+    font-family: 'Baar Sophia Bold';
+    margin: 7.625rem 0rem;
+   
+}
+
+section.tags ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.tags ul li {
+   list-style: none;
+}
+
+section.tags ul li a{
+    text-decoration:  none;
+    color: var(--primary-content80-color);
+    border: 2px solid var(--primary-color);
+    padding: 1.875rem;
+    font-size: 1.25rem;
+ }

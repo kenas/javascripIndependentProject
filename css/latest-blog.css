@@ -1,0 +1,86 @@
+section.latest-blog {
+    position: relative;
+}
+
+section.latest-blog .bevel-square-green {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 94%);
+    background: rgb(172, 191, 164);
+    background: -moz-linear-gradient(0deg, rgba(172, 191, 164, 1) 0%, rgba(226, 232, 206, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(172, 191, 164, 1) 0%, rgba(226, 232, 206, 1) 100%);
+    background: linear-gradient(0deg, rgba(172, 191, 164, 1) 0%, rgba(226, 232, 206, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#acbfa4", endColorstr="#e2e8ce", GradientType=1);
+    z-index: 1;
+}
+
+section.latest-blog .bevel-square-gray {
+    position: absolute;
+    top: 416px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 94%);
+    z-index: 1;
+    background-color: var(--gray30-color)
+}
+
+section.latest-blog .container {
+    position: relative;
+    z-index: 2; /* Set z-index for the container */
+}
+
+section.latest-blog .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section.latest-blog h2 {
+    font-family: 'Baar Sophia Bold';
+    color: #382C2C;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 5.875rem 0rem;
+}
+
+section.latest-blog article {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: auto; */
+    border: 1px solid red;
+}
+
+section.latest-blog article .first-picture img {
+    width: 100%;
+    height: 564px;
+    border-radius: 1.4375rem;
+    /* object-fit: cover; */
+}
+
+section.latest-blog article h3 {
+    font-family: 'Baar Sophia Regular';
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2.75rem 0rem;
+}
+
+section.latest-blog article h3 a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+section.latest-blog picture.avater {
+    margin-top: auto;
+    align-self: center;
+}
+
+section.latest-blog picture.avater img {
+    width: 40px;
+}

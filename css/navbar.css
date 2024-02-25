@@ -1,0 +1,101 @@
+nav {
+    display: flex;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    z-index: 3;
+}
+div.test {
+    display: none;
+}
+
+div.hamburger-menu {
+    display: none;
+}
+
+nav .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem 0rem;
+    flex-wrap: wrap;
+}
+
+nav .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+    color: var(--accent-color);
+    width: 150px;
+    font-family: 'Baar Zeitgeist';
+}
+
+nav .logo small {
+    position: relative;
+    top: -8px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    padding-left: 3.5rem;
+}
+
+nav li a {
+    font-family: 'Baar Zeitgeist';
+    color: var(--primary-content80-color);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Mobile */
+@media only screen and (max-width:768px) {
+    
+    div.container {
+        width: 90%;
+    }
+    
+    nav {
+        flex-direction: column;
+    }
+
+    div.test {
+        background-color: #ffffff;
+        width: 10px;
+        height: 10px;
+        display: block;
+    }
+
+    nav .wrapper {
+        flex-direction: row;
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        
+    }
+
+    div.hamburger-menu {
+        display: block;
+        align-self: center;
+        color: var(--primary-content80-color);
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        display: none; 
+    }
+
+    nav li {
+        padding: 13px 0;
+    }
+}
+  

@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #E2E8CE; 
+    --secondary-color: #ACBFA4; 
+    --accent-color: #BA1F33; 
+    --accent-color-hover: #b02d2d;
+    --gray30-color: hsla(0, 0%, 85%, 0.3);
+    --primary-content80-color: hsla(0, 12%, 20%, 0.8);
+
+  }
+
+  body {
+    font-family: 'Baar Sophia Regular';
+  }
+
+  main {
+    padding-top: 125px;
+  }
+
+  .container {
+    width: 80%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+  }
