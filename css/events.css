@@ -1,7 +1,3 @@
-section.events {
-
-}
-
 section.events h2 {
     font-family: 'Baar Sophia Bold';
     text-align: center;
@@ -11,15 +7,17 @@ section.events h2 {
     padding: 5rem 0rem;
 }
 
-section.events .wrapper {
-
-}
-
 section.events div.event {
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 50%;
     grid-row: 1/3;
+    border-bottom: 1px solid #C5C3C3;
+}
+
+section.events div.event:last-child {
+  
+    border-bottom: 0;
 }
 
 section.events div.event-place {
@@ -51,4 +49,23 @@ section.events div.event div.description {
     align-self: center;
     justify-self: center;
     padding-left: 5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width:768px) { 
+
+    section.events div.event { 
+        grid-template-columns: 1fr;
+    }
+
+    section.events div.event-place {
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    section.events div.event div.description {
+        padding: 1.5rem 0rem;
+        text-align: center;
+    }
+
 }
