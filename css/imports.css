@@ -4,7 +4,7 @@
 /* Baar Zeitgeist */
 @font-face {
     font-family: 'Baar Zeitgeist';
-    src: url('/fonts/BaarZeitgeist-2EZo.ttf') format('truetype');
+    src: url('../fonts/BaarZeitgeist-2EZo.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -12,7 +12,7 @@
 /* Baar Sophia Regular */
 @font-face {
     font-family: 'Baar Sophia Regular';
-    src: url('/fonts/BaarSophia-lg4Z.ttf') format('truetype');
+    src: url('../fonts/BaarSophia-lg4Z.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -20,7 +20,7 @@
 /* Baar Sophia Bold */
 @font-face {
   font-family: 'Baar Sophia Bold';
-  src: url('/fonts/BaarSophiaBold-nReR.ttf') format('truetype');
+  src: url('../fonts/BaarSophiaBold-nReR.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
