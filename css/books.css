@@ -1,0 +1,19 @@
+section.books {
+    position: relative;
+    top: 0;
+    left: 0; 
+    clip-path: polygon(0 0, 100% 4%, 100% 96%, 0% 100%);
+    background: rgb(172, 191, 164);
+    background: -moz-linear-gradient(0deg, rgba(172, 191, 164, 1) 0%, rgba(226, 232, 206, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(172, 191, 164, 1) 0%, rgba(226, 232, 206, 1) 100%);
+    background: linear-gradient(0deg, rgba(172, 191, 164, 1) 0%, rgba(226, 232, 206, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#acbfa4", endColorstr="#e2e8ce", GradientType=1);
+}
+
+section.books h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-content80-color);
+    font-family: 'Baar Sophia Bold';
+    font-size: 2.5rem;
+}

@@ -50,7 +50,7 @@ section.latest-blog h2 {
 }
 
 section.latest-blog article {
-    width: 420px;
+    width: 370px;
     display: flex;
     flex-direction: column;
 }
@@ -60,6 +60,9 @@ section.latest-blog article .first-picture img {
     height: 564px;
     border-radius: 1.4375rem;
     object-fit: cover;
+    -webkit-box-shadow: -0px -0px 26px -7px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -0px -0px 26px -7px rgba(66, 68, 90, 1);
+    box-shadow: -0px -0px 26px -7px rgba(66, 68, 90, 1);
 }
 
 section.latest-blog article h3 {
