@@ -1,16 +1,16 @@
 section.tags {
     font-family: 'Baar Sophia Bold';
     margin: 7.625rem 0rem;
-   
 }
 
 section.tags ul {
     display: flex;
-    justify-content: space-between;
 }
 
 section.tags ul li {
    list-style: none;
+   /* padding: 2rem; */
+   
 }
 
 section.tags ul li a{
@@ -20,3 +20,26 @@ section.tags ul li a{
     padding: 1.875rem;
     font-size: 1.25rem;
  }
+
+ /* Mobile */
+@media only screen and (max-width:768px) { 
+
+    section.tags { 
+        margin: 3.625rem 0rem;
+    }
+
+    section.tags ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.tags ul li {
+        list-style: none;
+        padding: 3rem 0;
+        
+     }
+
+     section.tags ul li a{ 
+        padding: 1rem;
+     }
+}
