@@ -19,7 +19,7 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/img/thomas07725_wisdom_f10eaa88-8037-4290-9b15-9c2b489549e5_1.png');
+    background-image: url('../img/thomas07725_wisdom_f10eaa88-8037-4290-9b15-9c2b489549e5_1.png');
     background-size: cover;
     filter: brightness(60%);
     z-index: -1;
