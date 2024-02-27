@@ -101,4 +101,9 @@ section.latest-blog picture.avater img {
     section.latest-blog picture.avater {
         padding-bottom: 2rem;
     }
+
+    section.latest-blog .bevel-square-green {
+        clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 98%);
+    }
+    
 }
