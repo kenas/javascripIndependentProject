@@ -95,7 +95,7 @@ section.latest-blog picture.avater img {
 @media only screen and (max-width:768px) { 
 
     section.latest-blog {
-        padding-bottom: 0;
+        margin-bottom: unset;
     }
 
     section.latest-blog picture.avater {
