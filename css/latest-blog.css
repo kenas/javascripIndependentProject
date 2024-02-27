@@ -90,3 +90,15 @@ section.latest-blog picture.avater img {
     width: 40px;
     padding-bottom:1rem ;
 }
+
+/* Mobile */
+@media only screen and (max-width:768px) { 
+
+    section.latest-blog {
+        all: unset;
+    }
+
+    section.latest-blog picture.avater {
+        padding-bottom: 2rem;
+    }
+}
