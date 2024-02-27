@@ -11,13 +11,11 @@ section.events div.event {
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 50%;
-    grid-row: 1/3;
     border-bottom: 1px solid #C5C3C3;
 }
 
 section.events div.event:last-child {
-  
-    border-bottom: 0;
+    border-bottom: unset;
 }
 
 section.events div.event-place {
