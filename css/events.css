@@ -59,7 +59,7 @@ section.events div.event div.description {
 
     section.events div.event { 
         grid-template-columns: 1fr;
-        padding: 2rem;
+        padding: 3rem 0rem;
     }
 
     section.events div.event-place {
