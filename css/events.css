@@ -1,3 +1,6 @@
+section.events {
+    padding-bottom: 10.5rem;
+}
 section.events h2 {
     font-family: 'Baar Sophia Bold';
     text-align: center;
@@ -24,15 +27,17 @@ section.events div.event-place {
 }
 
 section.events div.event picture {
-    /* object-fit: cover; */
     align-self: center;
     justify-self: center;
-    max-width: 300px;
+    min-width: 300px;
 }
 
 section.events div.event picture img {
     width: 100%;
     border-radius: 0.8125rem;
+    object-fit: cover;
+    height: 230px;
+  
 }
 
 section.events div.event div.description h3 {
