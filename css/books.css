@@ -16,4 +16,119 @@ section.books h2 {
     color: var(--primary-content80-color);
     font-family: 'Baar Sophia Bold';
     font-size: 2.5rem;
+    padding-top: 5.3125rem;
+}
+
+section.books div.shop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    padding: 5.5rem 0rem;
+}
+
+section.books div.book article {
+    padding: 0rem  2rem;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+section.books div.book article h3 {
+    font-family: 'Baar Sophia Regular';
+    color: var(--primary-content80-color);
+    font-size: 1.5rem;
+    line-height: 1.2;
+    padding-bottom: 3.5625rem;
+}
+
+section.books div.book div.description {
+    font-family: 'Titillium Web', serif;
+}
+
+section.books div.book picture {
+    max-width: 238px;
+}
+
+section.books div.book picture img {
+    width: 100%;
+    object-fit: cover;
+    height: 341px;
+    border-radius: 0.8125rem;
+    box-shadow: -0px -0px 26px -7px rgba(66, 68, 90, 1)
+}
+
+section.books div.author-price {
+    padding: 2.3125rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.books div.author-price {
+    font-size: 1.2rem;
+}
+
+section.books div.book {
+    display: flex;
+}
+
+section.books div.book a {
+    text-decoration: none;
+    width: fit-content;
+    background-color: var(--accent-color);
+    padding: 1.5rem 3.2rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: inline-block; /* when I do this, the button move down */
+    align-self: flex-end;
+}
+
+/* Mobile */
+@media only screen and (max-width:768px) {
+    section.books {
+        clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 98%);
+    }
+
+    section.books h2 {
+        padding: 5.875rem 0rem;
+    }
+
+    section.books div.shop {
+        grid-template-columns: 1fr;
+        padding: unset;
+    }
+
+    section.books div.book {
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+        /* padding: 2rem 0rem; */
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    section.books div.book article {
+        max-width: unset;
+        padding: 2rem 1rem 5rem 1rem;
+        /* padding-top: 2rem;
+        padding-bottom: 5rem;
+        padding-left: 1rem;
+        padding-right: 1rem; */
+        text-align: center;
+
+    }
+
+    section.books div.book picture {
+        max-width: 100%;
+    }
+    
+    section.books div.book picture img {
+        height: 564px;
+    }
+
+    section.books div.book a {
+        width: 100%;
+        text-align: center;
+    }
+
 }
