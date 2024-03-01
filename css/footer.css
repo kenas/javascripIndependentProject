@@ -1,0 +1,155 @@
+section.footer {
+    padding: 11.5625rem 0rem;
+}
+
+div.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+div.footer-wrapper h4 {
+    font-family: 'Baar Sophia Regular', serif;
+    font-size: 1.25rem;
+    color: var(--primary-content80-color);
+    text-transform: uppercase;
+    padding-bottom: 2.3125rem;
+}
+
+div.footer-wrapper  div.newsletter {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div.footer-wrapper  div.newsletter h4 {
+   text-align: center;
+}
+
+div.footer-wrapper  div.newsletter input {
+    border: 0;
+    border-bottom: 2px solid var(--secondary-color);
+    padding: 1rem 0.3rem;
+    font-size: 1.2rem;
+    color: var(--primary-content80-color);
+    font-family: 'Baar Sophia Regular', serif;
+    outline: none;
+    text-align: center;
+}
+
+div.footer-wrapper  div.newsletter input::placeholder {
+    text-align: center;
+}
+
+div.footer-wrapper div.newsletter a {
+    width: fit-content;
+    padding: 0.95rem 1rem;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    text-decoration: none;
+    align-self: center;
+    margin: 0.9375rem 0rem;
+}
+
+
+div.footer-wrapper  div.footer-blog-links {
+    justify-self: center;
+}
+
+div.footer-wrapper  div.footer-blog-links ul {
+    list-style: none;
+}
+
+div.footer-wrapper  div.footer-blog-links li {
+    padding:0.4000rem 0rem;
+}
+
+div.footer-wrapper  div.footer-blog-links li a {
+    text-decoration: none;
+    color: var(--primary-content80-color);
+}
+
+div.footer-wrapper  div.footer-books-links {
+    justify-self: center;
+}
+
+div.footer-wrapper  div.footer-books-links ul {
+    list-style: none;
+}
+
+div.footer-wrapper  div.footer-books-links li {
+   padding:0.4000rem 0rem;
+}
+
+div.footer-wrapper  div.footer-books-links li a {
+    text-decoration: none;
+    color: var(--primary-content80-color);
+}
+
+div.footer-wrapper  div.footer-logo {
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.footer-wrapper  div.footer-logo small {
+    font-family: 'Baar Zeitgeist';
+    font-size: 1.25rem;
+    color: var(--accent-color);
+}
+
+div.footer-wrapper  div.footer-logo div.social-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.125rem 0rem;
+    color: var(--accent-color);
+}
+
+
+ /* Mobile */
+ @media only screen and (max-width:768px) {
+    div.footer-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "blog-links"
+            "books-links"
+            "newsletter"
+            "logo";
+        gap: 6rem;
+    }
+
+    section.footer {
+        padding: 11.5625rem 0rem 5rem;
+    }
+
+    div.footer-wrapper div.newsletter {
+        grid-area: newsletter;
+    }
+
+    div.footer-wrapper  div.newsletter input {
+        max-width: fit-content;
+        align-self: center;       
+    }
+
+
+    div.footer-wrapper div.footer-blog-links {
+        text-align: center;
+        padding: 2rem 0rem;
+        grid-area: blog-links;
+    }
+
+    div.footer-wrapper div.footer-books-links {
+        text-align: center;
+        padding: 2rem 0rem;
+        grid-area: books-links;
+    }
+
+    div.footer-wrapper div.footer-logo {
+        justify-self: center;
+        grid-area: logo;
+    }
+ }
