@@ -81,6 +81,7 @@ section.books div.book a {
     font-size: 1.5rem;
     display: inline-block; /* when I do this, the button move down */
     align-self: flex-end;
+    clip-path: polygon( 0% 16.77%,94.053% 0%,100% 100%,0% 100%,0% 16.77% );
 }
 
 /* Mobile */
