@@ -10,11 +10,27 @@ section.events h2 {
     padding: 5rem 0rem;
 }
 
+/* section.events div.event:first-child {
+    display: none;
+}
+
+section.events div.event:nth-child(2) {
+    display: none;
+} */
+
 section.events div.event {
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 50%;
     border-bottom: 1px solid #C5C3C3;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 500ms ease-in-out, visibility 500ms ease-in-out;
+}
+
+section.events div.event.hidden {
+    opacity: 0;
+    visibility: hidden;
 }
 
 section.events div.event:last-child {
