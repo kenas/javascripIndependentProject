@@ -63,6 +63,12 @@ section.latest-blog article .first-picture img {
     -webkit-box-shadow: -0px -0px 26px -7px rgba(66, 68, 90, 1);
     -moz-box-shadow: -0px -0px 26px -7px rgba(66, 68, 90, 1);
     box-shadow: -0px -0px 26px -7px rgba(66, 68, 90, 1);
+    transform: translateY(-20px);
+}
+
+.afect {
+    transition: 1s ease-out;
+    transform: translateY(30px);
 }
 
 section.latest-blog article h3 {
